@@ -1,0 +1,56 @@
+//Problema 2
+//En un método principal se debe seleccionar dentro de un ciclo repetitivo entre
+//dos funciones; en función de un valor ingresado por teclado. El usuario decide
+//cuando se debe terminar el proceso.
+//La función uno permite ingresar autos: marca del auto y año de fabricación.
+
+//La función dos permite ingresar motos: tipo de motor y número de asientos
+
+//La función uno debe retornar una cadena; como ejemplo:
+
+//Auto marca chevrolet con año de fabricación 1990.
+//La función dos debe retornar una cadena; como ejemplo:
+//Moto con motor a gasolina y 2 asientos.
+//Atención: todos los valores deben ser ingresados por teclado.
+
+1.Inicio()
+2.Funcion principal()
+3.  opcionDis, i [i-n]
+4.  cadenaFinal, x (150)[{a-z},{A-Z},{BS},{´}]
+5.  bandera= true
+6.  respuesta, x(2)[{a-z},{A-Z},{BS},{´}]
+7.  Mientras (bandera == true) haga
+7.
+7.    Escribir "Digite 1 para ingresar datos sobre autos"
+7.    Leer opcionDis
+8.    Escribir "Digite 2 para ingresar datos sobre motos"
+9.    Leer opcionDis
+10.         Si opcionDis == 1 entonces
+11.            cadenaFinal<-- datosAutos
+12.           Si opcionDis == 2 entonces
+13.              cadenaFinal <-- datosMotos
+14.           Caso contrario
+15.               Escribir "La opción ingresada es incorrecta, por favor intente
+15.                         nuevamente"
+16.           Fin si
+17.         Fin si
+18. Escribir "Escriba [si], si desea dejar de ingresar datos; o escriba [no], si
+              usted desea seguir ingresando datos"
+18. Leer respuesta
+18.    Si(respuesta == "si") OR (respuesta == "Si") OR (respuesta == "SI")
+18.    OR (respuesta == "sI") entonces
+18.      bandera == false
+18.
+18. Escribir cadenaFinal
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
